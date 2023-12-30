@@ -1,3 +1,3 @@
 # HTLMLearning
 
-This contains  all my learning as a beginner.
+This contains all my learning as a beginner.

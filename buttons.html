@@ -1,0 +1,139 @@
+<!-- ..............................Lesson - 2 (Basic of CSS)..................................................... -->
+
+<!-- CSS: Cascading Style Sheet -->
+<!-- As the name suggest, It is used to style a webpage -->
+
+<style></style>
+<!-- 
+  The style element allows authors to embed style information in their documents.
+  The style element is one of several inputs to the styling processing model.
+  The element does not represent content for the user. 
+-->
+<button>
+	SUBSCRIBE
+</button>
+<p> Subscribe button when style is done below</p>
+<style>
+	button {
+	background-color: rgb(200, 0, 0); /*we can also use "background-color: red;"*/
+	color: white; /*Use for text color*/
+	border: none; /*Use for Border*/
+	height: 36px; /*Use for Height*/
+	width: 105px; /*Use for Width*/
+	border-radius: 2px; /*Use to make round border*/
+	cursor: pointer;  /*Use to change mouse into hand*/
+	}
+</style>
+<!-- Above code will convert all the button into red colour -->
+<!-- the button inside style is called CSS selector. -->
+<!-- It tells the computer which element in targating -->
+<!-- inside {} the left side text is used as CSS property. It tells computer what we are changing and to the right what we are changing to. -->
+<!-- always ends CSS property with ; -->
+<button>
+	SUBSCRIBE
+</button>
+<p> Subscribe is button when style is done above</p>
+
+<!-- General Technique:
+1. Create a button with HTML
+2. Style with CSS one-by-one -->
+
+<!-- To change the CSS style for only one button -->
+
+<p>Doing CSS Styling by Class</p>
+
+<style>
+	.Sub-button {
+	background-color: rgb(200, 0, 0); /*we can also use "background-color: red;"*/
+	color: white; /*Use for text color*/
+	border: none; /*Use for Border*/
+	height: 36px; /*Use for Height*/
+	width: 105px; /*Use for Width*/
+	border-radius: 2px; /*Use to make round border*/
+	cursor: pointer;  /*Use to change mouse into hand*/
+	}
+
+	.Joined-Button {
+	background-color: rgb(255, 255, 255); /*we can also use "background-color: red;"*/
+	color: rgb(41, 118, 211); /*Use for text color*/
+	border-color: rgb(41, 118, 211); /*Use for Border Colour*/
+	border-style: solid;
+	border-width: 1px;
+	height: 36px; /*Use for Height*/
+	width: 62px; /*Use for Width*/
+	border-radius: 2px; /*Use to make round border*/
+	cursor: pointer;  /*Use to change mouse into hand*/
+	}
+
+	.Tweeted-Button {
+	background-color: rgb(2, 158, 255); /*we can also use "background-color: red;"*/
+	color: rgb(255, 255, 255); /*Use for text color*/
+	border-color: rgb(41, 118, 211); /*Use for Border Colour*/
+	border: none;
+	height: 36px; /*Use for Height*/
+	width: 74px; /*Use for Width*/
+	border-radius: 18px; /*Use to make round border*/
+	cursor: pointer;  /*Use to change mouse into hand*/
+	font-weight: bold;
+	font-size: 15px;
+	}
+</style>
+<p>Below button have margin on right</p>
+<button class="Sub-button">
+	SUBSCRIBE
+</button>
+<button class="Joined-Button">
+	Join
+</button>
+<button class="Tweeted-Button">
+	Tweet
+</button>
+
+<style>
+	.Substribe-button {
+	background-color: rgb(200, 0, 0); /*we can also use "background-color: red;"*/
+	color: white; /*Use for text color*/
+	border: none; /*Use for Border*/
+	height: 36px; /*Use for Height*/
+	width: 105px; /*Use for Width*/
+	border-radius: 2px; /*Use to make round border*/
+	cursor: pointer;  /*Use to change mouse into hand*/
+	margin-right: 8px;
+	}
+
+	.Join-Button {
+	background-color: rgb(255, 255, 255); /*we can also use "background-color: red;"*/
+	color: rgb(41, 118, 211); /*Use for text color*/
+	border-color: rgb(41, 118, 211); /*Use for Border Colour*/
+	border-style: solid;
+	border-width: 1px;
+	height: 36px; /*Use for Height*/
+	width: 62px; /*Use for Width*/
+	border-radius: 2px; /*Use to make round border*/
+	cursor: pointer;  /*Use to change mouse into hand*/
+	}
+
+	.Tweet-Button {
+	background-color: rgb(2, 158, 255); /*we can also use "background-color: red;"*/
+	color: rgb(255, 255, 255); /*Use for text color*/
+	border-color: rgb(41, 118, 211); /*Use for Border Colour*/
+	border: none;
+	height: 36px; /*Use for Height*/
+	width: 74px; /*Use for Width*/
+	border-radius: 18px; /*Use to make round border*/
+	cursor: pointer;  /*Use to change mouse into hand*/
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 8px;
+	}
+</style>
+<p>Below button have margin on right</p>
+<button class="Substribe-button">
+	SUBSCRIBE
+</button>
+<button class="Join-Button">
+	Join
+</button>
+<button class="Tweet-Button">
+	Tweet
+</button>

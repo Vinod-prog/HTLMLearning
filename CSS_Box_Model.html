@@ -1,0 +1,109 @@
+<!-- ..............................Lesson - 4 (CSS Box Model)..................................................... -->
+<style>
+	.Join-Button {
+	background-color: rgb(255, 255, 255); 
+	color: rgb(41, 118, 211); 
+	border-color: rgb(41, 118, 211);
+	border-style: solid;
+	border-width: 1px;
+	height: 36px;
+	width: 62px;
+	border-radius: 2px;
+	cursor: pointer;
+  transition: background-color 0.15s,color 0.15s;
+	}
+
+  .Join-Button:hover{
+  color: rgb(255, 255, 255); 
+	background-color: rgb(41, 118, 211);
+  }
+
+  .Join-Button:active{
+    opacity: 0.7;
+  }  
+</style>
+<button class="Join-Button">
+	Join
+</button>
+
+
+<!-- On checking with Chrome DevTools we can see the actual styling used in any web pages -->
+<!-- Note: Sometimes in place of color some #xxxxx value is mentioned. This are also similar to RGB but written in Hex Value. If we want to know the RGB value then just convert it online using any converter -->
+<!-- 
+	 __________________________________________ 
+	| margin                                   |
+	|    _________________________________     |
+	|   |  border                         |    |
+	|   |     _________________________   |    |
+	|   |    | padding                 |  |    |
+	|   |    |    _________________    |  |    |    
+	|   |    |   |__Text __________|   |  |    |    
+	|   |    |                         |  |    |
+	|   |    |_________________________|  |    |
+	|   |                                 |    |
+	|   |_________________________________|    |
+	|                                          |
+	|__________________________________________|
+ -->
+ <!-- The above image is called CSS Box -->
+ <!-- CSS Box model tells us that how much space an element takes up and how far it is away from other elements -->
+ <!-- Note: Earlier we were using height and width in our button styling  -->
+ <!-- This lead to an issue where if our text is greater than pre-defined height and width -->
+ <p>Style is done and text is greater than height and width</p>
+ <style>
+	.Join-Button {
+	background-color: rgb(255, 255, 255); 
+	color: rgb(41, 118, 211); 
+	border-color: rgb(41, 118, 211);
+	border-style: solid;
+	border-width: 1px;
+	height: 36px;
+	width: 62px;
+	border-radius: 2px;
+	cursor: pointer;
+  transition: background-color 0.15s,color 0.15s;
+	}
+
+  .Join-Button:hover{
+  color: rgb(255, 255, 255); 
+	background-color: rgb(41, 118, 211);
+  }
+
+  .Join-Button:active{
+    opacity: 0.7;
+  }  
+</style>
+<button class="Join-Button">
+	Join my channel for more updates
+</button>
+<!-- Notic above code leads to over flow of characters -->
+<!-- This issue can be solved by adding padding instead of height and width -->
+<p>Style is done and text is greater than height and width But now padding is done instead of height and width</p>
+<style>
+   .Join-Update-Button {
+    background-color: rgb(255, 255, 255); 
+   color: rgb(41, 118, 211); 
+   border-color: rgb(41, 118, 211);
+   border-style: solid;
+   border-width: 1px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 2px;
+   cursor: pointer;
+   transition: background-color 0.15s,color 0.15s;
+   }
+
+ .Join-Update-Button:hover{
+ color: rgb(255, 255, 255); 
+   background-color: rgb(41, 118, 211);
+ }
+
+ .Join-Update-Button:active{
+   opacity: 0.7;
+ }  
+</style>
+<button class="Join-Update-Button">
+   Join my channel for more updates
+</button>

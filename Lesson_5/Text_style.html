@@ -1,0 +1,179 @@
+<style>
+  .video-title{
+    color: black;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300;
+    line-height: 24px;
+  }
+
+  .video-stats{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+  }
+</style>
+
+<!-- If we don't know any CSS property. Don't hesistate to google the styling you want like making "Text a Itlaic" -->
+
+<p class="video-title">
+  Talking Tech an AI with Google CEO Sunder Pichai!
+</p>
+
+<p class="video-stats">
+  3.4M views &#183; 6 months ago
+</p>
+
+<!-- Here, &#183 is representation of middle dot. This is one of HTML Entity -->
+<!-- HTML Entity are the collection of special characters -->
+<!-- We can google any character entity code and use it -->
+<!-- We can also copy and paste the exact symbole but it is usually avoid as some browsers don't support this method. -->
+<!-- <p></p> has by defualt margin of 14px on top and bottom -->
+<!-- to remove by defualt margin we will add own margins -->
+
+
+
+<style>
+    .videos-title{
+      color: black;
+      font-family: Arial;
+      font-size: 18px;
+      font-weight: bold;
+      width: 300;
+      line-height: 24px;
+      margin-bottom: 5px;
+    }
+  
+    .videos-stats{
+      font-family: Arial;
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+
+    .video-author{
+      font-family: Arial;
+      color: rgb(96, 96, 96);
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .videos-description{
+      font-family: Arial;
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      width: 200;
+      line-height: 22px;
+      margin-top: 0;
+    }
+</style>
+
+<p class="videos-title">
+  Talking Tech an AI with Google CEO Sunder Pichai!
+</p>
+  
+<p class="videos-stats">
+  3.4M views &#183; 6 months ago
+</p>
+
+<p class="video-author">
+  Marques Brownlee &#10003;
+</p>
+
+<p class="videos-description">
+  Talking tech andv AI on heels of Google I/O. 
+  Also a daily driver phone reveal from Googlr's CEO. 
+  Shoutout  to Sunder!
+</p>
+
+<!-- Now in our code above we can remove the common part and simply our code -->
+<!-- Like, in our all code Font-Family is common -->
+<p>
+  ------------------------------------New Code------------------------------------
+</p>
+
+<style>
+  p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(96, 96, 96);
+  }
+
+  .videos-title-new{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .videos-stats-new{
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .video-author-new{
+    margin-bottom: 20px;
+  }
+
+  .videos-description-new{
+    font-size: 14px;
+    width: 200;
+    line-height: 22px;
+    margin-bottom: 100px;
+  }
+
+  .apple-text{
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(277, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .shop-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    /* margin-left: 20px; This part is used to add spacing in paragraphs */
+  }
+</style>
+
+<p class="videos-title-new">
+Talking Tech an AI with Google CEO Sunder Pichai!
+</p>
+
+<p class="videos-stats-new">
+3.4M views &#183; 6 months ago
+</p>
+
+<p class="video-author-new">
+Marques Brownlee &#10003;
+</p>
+
+<p class="videos-description-new">
+Talking tech andv AI on heels of Google I/O. 
+Also a daily driver phone reveal from Googlr's CEO. 
+Shoutout  to Sunder!
+</p>
+
+<p class="apple-text">
+  Shop early for the best selection of holiday favourites.
+  <span class="shop-link">Shop now &#62;</span>
+</p>
+
+<!-- Notice the margin-bottom conflic -->
+<!-- in top we use 0px but in class we specify it like 5px -->
+<!-- Even if we reverse the order the code works same -->
+<!-- This is due to CSS specificity -->
+<!-- It is the priority that a browser follows -->
+<!-- We can use text element to underline specific text -->
+<!-- The span element doesn't mean anything on its own,
+  but can be useful when used together with the global attributes,
+  e.g. class, lang, or dir.
+  It represents its children. -->

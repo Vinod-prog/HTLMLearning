@@ -1,0 +1,116 @@
+<!DOCTYPE html> <!--Used to tell browser to use latest version of HTML-->
+<html> <!--Says a webpage is present inside it-->
+  <head>
+<!--If element is inside element that is called nested elements-->
+<!--HTML element is designed for nesting-->
+<!-- It is defined to contain one head and one body element -->
+<!--All the element will go either head or body element-->
+<!--Notice: Head and Body is also designed for nesting-->
+<!--Body element: It is suppose to contain all the visible content-->
+<!--Head element: It is suppose to contain all the non-visible content-->
+<!--Head element is useful when we want to add title or need to reload webpage automatically-->
+
+<!-- ..............................Lesson - 0 (Basics of HTML)..................................................... -->
+  </head>
+  <body>
+
+
+    <p>paragraph of text</p>  <!-- This is a paragraph Element in HTML -->
+    <button>Hello</button>    <!-- This is a button Element in HTML -->
+    <br> <!--Break Element in HTML-->
+
+    <!--- On running the above code in any web browser (i.e. Chrome, Edge) will provide first paragraph and then a button Hello -->
+    <!-- If we reverse the order the botton and paragraph code lines then the order on web browser is also reversered -->
+    <!-- This is due to a fact that in HTML the reading is done line by line -->
+
+    <br> <!-- Break Element in HTML -->
+    <button>Hello2</button>    <!-- This is a button Element in HTML -->
+    <p>paragraph of text if order is reversed</p>  <!-- This is a paragraph Element in HTML -->
+
+    <!-- <button> is HTML Tag. It basically tells the computer what we are trying to create -->
+    <!-- Here, button is the Tag Name -->
+    <!-- Every element contains two tag. -->
+    <!-- Opening Tag: To start the Element -->
+    <!-- Closing Tag: Similar to Opening Tag except it has "/" before the Tag Name. It denotes the End of the element -->
+    <!-- Between then Opening and Closing Tag, We can write our text or contain -->
+
+
+
+
+
+    <!-- ..............................Lesson - 1 (Linking a website)..................................................... -->
+    <!-- Now we are going to link a website -->
+    <!-- To link an element we use anchore element "a" -->
+    <!-- anchore element is similar to button or p -->
+    <a>Link to Google.Com</a>
+    <br>
+    <!-- The Above code created a paragraph but on clicking it we are not going anywhere -->
+    <!-- This is because we have not provided it any destination -->
+    <!-- To add desination we use " href="Link of desination" ". This is a HTML attributes that represents how an element behaves. -->
+    <!-- Note: Space is must between Tag name and attribute. -->
+    <!-- href is Attribute name (In our case, href) -->
+    <!-- inside double quotes is attribute value (In our case, the Link of destination) -->
+
+    <a href="https://www.google.co.in/">Link to Google.Com</a>
+    <br>
+
+    <!-- We can also add mutiple attributes -->
+    <a href="https://www.google.co.in/" target="_blank">Link to Google.Com with multiple attributes</a>
+    <!-- Here, target is used to tell my browser to open the Link on new tab by inserting _blank as a value -->
+
+
+
+
+    <!-- .................................................................................................. -->
+    <!-- In General, to make our HTML code simple and easily readable we use indents. Eg: -->
+    <!-- Old Code: -->
+    <p>..............................................................</p>
+    <p>Old Code:</p>
+    <p>paragraph of text</p>  <!-- This is a paragraph Element in HTML -->
+    <button>Hello</button>    <!-- This is a button Element in HTML -->
+    <br>
+    <br> <!-- Break Element in HTML -->
+    <button>Hello2</button>    <!-- This is a button Element in HTML -->
+    <p>paragraph of text if order is reversed</p>  <!-- This is a paragraph Element in HTML -->
+    <a>Link to Google.Com</a>
+    <br>
+    <a href="https://www.google.co.in/">Link to Google.Com</a>
+    <br>
+    <a href="https://www.google.co.in/" target="_blank">Link to Google.Com with multiple attributes</a>
+    <!-- .................................................................................................. -->
+    <!-- New Code with indent -->
+    <p>..............................................................</p>
+    <p>New Code:</p>
+    <p>
+        paragraph of text
+    </p>  <!-- This is a paragraph Element in HTML -->
+    <button>
+        Hello
+    </button>    <!-- This is a button Element in HTML -->
+    <br>
+    <br> <!-- Break Element in HTML -->
+    <button>
+        Hello2
+    </button>    <!-- This is a button Element in HTML -->
+    <p>
+        paragraph of text if order is reversed
+    </p>  <!-- This is a paragraph Element in HTML -->
+    <a>
+        Link to Google.Com
+    </a>
+    <br>
+    <a href="https://www.google.co.in/">
+        Link to Google.Com
+    </a>
+    <br>
+    <a href="https://www.google.co.in/" target="_blank">
+        Link to Google.Com with multiple attributes
+    </a>
+
+    <!-- Note that the structure followed is :
+    Opening tag
+        Text
+    Closing tag -->
+    <!-- we also use <br> to do breaking. This allows us to visualize code on next line. -->
+  </body>
+</html>

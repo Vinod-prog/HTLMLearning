@@ -1,0 +1,36 @@
+.Substribe-button {
+background-color: rgb(200, 0, 0); /*we can also use "background-color: red;"*/
+color: white; /*Use for text color*/
+border: none; /*Use for Border*/
+height: 36px; /*Use for Height*/
+width: 105px; /*Use for Width*/
+border-radius: 2px; /*Use to make round border*/
+cursor: pointer;  /*Use to change mouse into hand*/
+margin-right: 8px;
+}
+
+.Join-Button {
+background-color: rgb(255, 255, 255); /*we can also use "background-color: red;"*/
+color: rgb(41, 118, 211); /*Use for text color*/
+border-color: rgb(41, 118, 211); /*Use for Border Colour*/
+border-style: solid;
+border-width: 1px;
+height: 36px; /*Use for Height*/
+width: 62px; /*Use for Width*/
+border-radius: 2px; /*Use to make round border*/
+cursor: pointer;  /*Use to change mouse into hand*/
+}
+
+.Tweet-Button {
+background-color: rgb(2, 158, 255); /*we can also use "background-color: red;"*/
+color: rgb(255, 255, 255); /*Use for text color*/
+border-color: rgb(41, 118, 211); /*Use for Border Colour*/
+border: none;
+height: 36px; /*Use for Height*/
+width: 74px; /*Use for Width*/
+border-radius: 18px; /*Use to make round border*/
+cursor: pointer;  /*Use to change mouse into hand*/
+font-weight: bold;
+font-size: 15px;
+margin-left: 8px;
+}
